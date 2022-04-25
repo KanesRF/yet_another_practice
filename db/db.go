@@ -12,7 +12,7 @@ import (
 	"github.com/ClickHouse/clickhouse-go/v2"
 )
 
-//How mach structs can we store before INSERT db call?
+//How much structs can we store before INSERT db call?
 const StorageLimit int32 = 30000
 
 type ClientDate struct {
